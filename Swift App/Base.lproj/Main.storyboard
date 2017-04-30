@@ -34,22 +34,50 @@
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kfH-K8-hRQ"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ipV-Qj-PDE">
+                                <rect key="frame" x="137" y="140" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="GUr-PV-FLE"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bB7-MH-UD8">
+                                <rect key="frame" x="137" y="100" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="yoS-a1-3Ul"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="cva-0i-s7w" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5CS-x5-sds"/>
+                            <constraint firstItem="LnH-os-wpV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9fz-Uw-Kle"/>
                             <constraint firstItem="LnH-os-wpV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SOC-2Z-Ow6"/>
+                            <constraint firstItem="ipV-Qj-PDE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SqS-Jy-Hri"/>
+                            <constraint firstItem="ipV-Qj-PDE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aQe-f8-HWd"/>
+                            <constraint firstItem="bB7-MH-UD8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hpC-JA-98u"/>
                             <constraint firstItem="cva-0i-s7w" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="jzU-Xj-jpb"/>
+                            <constraint firstItem="cva-0i-s7w" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kc0-9b-5ec"/>
+                            <constraint firstItem="ipV-Qj-PDE" firstAttribute="top" secondItem="bB7-MH-UD8" secondAttribute="bottom" constant="10" id="obx-pt-gfh"/>
+                            <constraint firstItem="bB7-MH-UD8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vKC-Ci-OHe"/>
+                            <constraint firstItem="bB7-MH-UD8" firstAttribute="top" secondItem="LnH-os-wpV" secondAttribute="bottom" constant="10" id="wnr-rc-9Zn"/>
                             <constraint firstItem="LnH-os-wpV" firstAttribute="top" secondItem="cva-0i-s7w" secondAttribute="bottom" constant="9" id="zpL-F1-Lcr"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="Label" destination="cva-0i-s7w" id="QQz-oi-Try"/>
+                        <outlet property="text1" destination="bB7-MH-UD8" id="MmZ-f9-hjT"/>
+                        <outlet property="text2" destination="ipV-Qj-PDE" id="Phg-Yd-k3l"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1082" y="-14"/>
+            <point key="canvasLocation" x="-1519" y="-71"/>
         </scene>
     </scenes>
 </document>
